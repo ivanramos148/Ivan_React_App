@@ -1,0 +1,29 @@
+$darkGrey: #9E9E9E;
+$lightGrey: #ECECEC;
+
+.header{
+  .headerText{
+    line-height: .4;
+    margin-left: 5px;
+    color: $lightGrey
+  }
+  .headerTitleText {
+    line-height: .5px;
+    color: $lightGrey;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .headerText{
+    color: $lightGrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20%;
+  }
+  .headerTitleText {
+    color: $lightGrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 1%
+  }
+}
